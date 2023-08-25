@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang= "pt-br">
+ <head>	
+	<meta charset="UTF8">
+	<title>Barbearia Aluna</title>
+	<link rel="stylesheet" href="style2.css">
+ </head>
+
+ <body>
+<div class="principal">
+		<header><h1 class="titulo-principal"> Barbearia Aluna</h1></header>
+	 	<img id="banner" src="banner.jpg">
+	 	<h2 class="titulo-centralizado"> Sobre a Barbearia Aluna </h1>
+	  <p>A barbearia foi criada em 2015 pelo cabelereiro João Aluna, ele diz que preza muito pelo conforto de seus clientes.</p>
+	  <p><em><strong>"nosso objetivo sempre foi proporcionar satisfação em nossa barbearia"</strong></em></p>
+</div>
+
+<div class="beneficios">
+	  <h3 class="titulo-centralizado">Benefícios</h2>
+	  <ul>
+	  	<li class="itens">*Atendimento aos clientes</li>
+	  	<li class="itens">*Pofissionais capacitados</li>
+	  	<li class="itens">*Localizzação</li>
+	  </ul>
+	 <img src="beneficios.jpg class="imagembeneficios>
+	</div>
+</body>
+
+.principal{
+	background:#CCCCCC;
+	padding: 30px;
+}
+
+.titulo-principal{
+	padding-left: 20px;
+}
+
+#banner{
+	width:100%;
+}
+
+.titulo-centralizado{
+	text-align: center
+}
+
+p{
+	text-align: center
+}
+em {
+	color: blue; font-size: 21px
+}
+
+.beneficios{
+	background: #FFFFFF;
+	padding: 20px;
+}
+
+.itens {
+	font-style: italic	
+}
+
+ul {
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	margin-right: 15%;
+}
+.imagembeneficios {
+ 	width: 50%
+}
